@@ -43,5 +43,5 @@ def fetch_crypto_data(crypto_ids, vs_currency='usd', days=30):
 # Example usage:
 cryptos = ['bitcoin', 'ethereum', 'binancecoin']
 data = fetch_crypto_data(cryptos, days=30)
-data.to_csv('C:/Users/Mohsen/Desktop/Desktop/AI/crypto-correlation-dashboard/data/crypto_prices.csv', index=True)
-print("Data saved to 'C:/Users/Mohsen/Desktop/Desktop/AI/crypto-correlation-dashboard/data/crypto_prices.csv'")
+data.to_csv('crypto-correlation-dashboard/data/crypto_prices.csv', index=True)
+print("Data saved to 'crypto-correlation-dashboard/data/crypto_prices.csv'")
