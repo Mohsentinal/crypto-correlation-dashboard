@@ -48,12 +48,12 @@ def analyze_crypto_data(file_path):
     plt.tight_layout()
 
     # Save the heatmap to the correct directory
-    output_path = r'C:\Users\Mohsen\Desktop\Desktop\AI\crypto-correlation-dashboard\data\correlation_heatmap.png'
+    output_path = r'crypto-correlation-dashboard\data\correlation_heatmap.png'
     plt.savefig(output_path)
     print(f"Heatmap saved to {output_path}")
     plt.show()
 
 
 # Run the analysis
-file_path = r'C:\Users\Mohsen\Desktop\Desktop\AI\crypto-correlation-dashboard\data\crypto_prices.csv'
+file_path = r'crypto-correlation-dashboard\data\crypto_prices.csv'
 analyze_crypto_data(file_path)
